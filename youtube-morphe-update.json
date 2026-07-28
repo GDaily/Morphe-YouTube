@@ -1,6 +1,6 @@
 {
-  "version": "v20.51.39 (patches 1.34.0.mpp)",
-  "versionCode": 7,
-  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/7/youtube-morphe-module-v20.51.39-all.zip",
+  "version": "v21.04.223 (patches 1.37.0.mpp)",
+  "versionCode": 8,
+  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/8/youtube-morphe-module-v21.04.223-all.zip",
   "changelog": "https://raw.githubusercontent.com/GDaily/Morphe-YouTube/update/build.md"
 }
