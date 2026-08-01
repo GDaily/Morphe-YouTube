@@ -1,6 +1,6 @@
 {
-  "version": "v9.15.51 (patches 1.37.0.mpp)",
-  "versionCode": 8,
-  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/8/music-morphe-module-v9.15.51-arm-v7a.zip",
+  "version": "v9.15.51 (patches 1.38.0.mpp)",
+  "versionCode": 9,
+  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/9/music-morphe-module-v9.15.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/GDaily/Morphe-YouTube/update/build.md"
 }
