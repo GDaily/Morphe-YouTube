@@ -1,6 +1,6 @@
 {
-  "version": "v21.16.256 (patches 1.45.0.mpp)",
-  "versionCode": 17,
-  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/17/youtube-morphe-module-v21.16.256-all.zip",
+  "version": "v21.16.256 (patches 1.46.0.mpp)",
+  "versionCode": 18,
+  "zipUrl": "https://github.com/GDaily/Morphe-YouTube/releases/download/18/youtube-morphe-module-v21.16.256-all.zip",
   "changelog": "https://raw.githubusercontent.com/GDaily/Morphe-YouTube/update/build.md"
 }
