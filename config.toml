@@ -1,30 +1,74 @@
-enable-module-update = true # set this to false if you do not want to receive updates for the module
+
+enable-module-update = false
 parallel-jobs = 1
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
-
+# ========================================
+# YouTube Morphe - Stable
+# ========================================
 
 [YouTube-Morphe]
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
+patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "both"
+build-mode = "apk"
+arch = "all"
+
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 
+# ========================================
+# YouTube Morphe - Dev
+# ========================================
+
+[YouTube-Morphe-Dev]
+app-name = "YouTube-Dev"
+patches-source = "MorpheApp/morphe-patches"
+patches-version = "dev"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "apk"
+arch = "all"
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+
+# ========================================
+# YouTube Music Morphe - Stable
+# ========================================
+
 [Music-Morphe]
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
+patches-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "both"
+build-mode = "apk"
 arch = "both"
+
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+
+# ========================================
+# YouTube Music Morphe - Dev
+# ========================================
+
+[Music-Morphe-Dev]
+app-name = "Music-Dev"
+patches-source = "MorpheApp/morphe-patches"
+patches-version = "dev"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "apk"
+arch = "both"
+
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
